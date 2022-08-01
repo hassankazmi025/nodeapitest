@@ -4,9 +4,17 @@ GET http://localhost:3000/user
 
 ###
 POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+   "id":2,
+   "username":"hassan shah",
+   "email":"hassan@gmail.com",
+   "isActive":false
+}
 
 ###
-GET  http://localhost:3000/user/1
+GET  http://localhost:3000/user/2
 
 
 ###
@@ -16,6 +24,8 @@ PATCH   http://localhost:3000/user/1
 ###
 DELETE   http://localhost:3000/user/1
 
+###
 
+GET    http://localhost:3000/laptop/
 
 
